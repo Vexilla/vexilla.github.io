@@ -1,0 +1,42 @@
+import Header from "components/header";
+import Hero from "components/home/hero";
+import HowItWorks from "components/home/how-it-works";
+import WhatAreFeatureFlags from "components/home/what-are-feature-flags";
+import Documentation from "components/home/documentation";
+import Features from "components/home/features";
+
+import Link from "components/link";
+
+import { Nav, InnerLink } from "components/common/header";
+
+export default function HomePage() {
+  return (
+    <>
+      <Header>
+        <Nav>
+          <Link href="/#how-it-works">
+            <InnerLink>How It Works</InnerLink>
+          </Link>
+
+          <Link href="/#feature-flags">
+            <InnerLink>Feature Flags</InnerLink>
+          </Link>
+
+          <Link href="/#features">
+            <InnerLink>Features</InnerLink>
+          </Link>
+
+          <Link href="/#license">
+            <InnerLink>License</InnerLink>
+          </Link>
+        </Nav>
+      </Header>
+      <Hero />
+      <HowItWorks />
+      <WhatAreFeatureFlags />
+      <Features />
+      <Documentation />
+      <div>License</div>
+    </>
+  );
+}
