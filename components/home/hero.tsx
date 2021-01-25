@@ -32,10 +32,10 @@ export default function HomeHero() {
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <Image
+          <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="/traffic-light-green.jpg"
+            src="/traffic-light-green.svg"
             width="720"
             height="600"
           />
