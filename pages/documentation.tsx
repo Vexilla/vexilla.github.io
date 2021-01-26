@@ -1,4 +1,5 @@
 import Link from "components/link";
+import Head from "next/head";
 
 import styled from "styled-components";
 import tw from "twin.macro";
@@ -36,6 +37,9 @@ const ContentSection = styled.section`
 export default function Documentation() {
   return (
     <>
+      <Head>
+        <title>Documentation | Vexilla</title>
+      </Head>
       <Header>
         <Nav>
           <Link href="/documentation#api">

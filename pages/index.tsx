@@ -6,12 +6,16 @@ import Documentation from "components/home/documentation";
 import Features from "components/home/features";
 
 import Link from "components/link";
+import Head from "next/head";
 
 import { Nav, InnerLink } from "components/common/header";
 
 export default function HomePage() {
   return (
     <>
+      <Head>
+        <title>Vexilla</title>
+      </Head>
       <Header>
         <Nav>
           <Link href="/#how-it-works">
