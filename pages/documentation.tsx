@@ -34,6 +34,52 @@ const ContentSection = styled.section`
   ${tw`px-24 py-20`}
 `;
 
+const ClientLanguage = styled.span`
+  ${tw`font-bold inline-block`}
+
+  width: 100px;
+  margin-top: 0 !important;
+`;
+
+const clients = [
+  {
+    language: "JS/TS",
+    github: "https://github.com/vexilla/client-js",
+    repository: "npm",
+    repositoryLink: "https://npmjs.org/vexilla-client",
+  },
+  {
+    language: "Elixir",
+    github: "https://github.com/vexilla/client-elixir",
+    repository: "hex.pm",
+    repositoryLink: "https://hex.pm/packages/vexilla_client_elixir",
+  },
+  {
+    language: "PHP",
+    github: "https://github.com/vexilla/client-php",
+    repository: "Packagist",
+    repositoryLink: "https://packagist.org/packages/vexilla/client",
+  },
+  {
+    language: "Python",
+    github: "https://github.com/vexilla/client-python",
+    repository: "pypi",
+    repositoryLink: "https://pypi.org/project/vexilla-client/",
+  },
+  {
+    language: "C#",
+    github: "https://github.com/vexilla/client-csharp",
+    repository: "NuGet",
+    repositoryLink: "https://www.nuget.org/packages/Vexilla.Client",
+  },
+  {
+    language: "Kotlin (Java)",
+    github: "https://github.com/vexilla/client-kotlin",
+    repository: "Maven",
+    repositoryLink: "",
+  },
+];
+
 export default function Documentation() {
   return (
     <>
@@ -119,12 +165,29 @@ export default function Documentation() {
                 are adding new client language support as fast as we can.
               </p>
               <ul>
-                <li>JS/TS</li>
-                <li>Elixir</li>
-                <li>Python</li>
-                <li>PHP</li>
-                <li>C#</li>
-                <li>Kotlin (Java)</li>
+                {clients.map((client) => {
+                  return (
+                    client.repositoryLink && (
+                      <li>
+                        <ClientLanguage>{client.language}</ClientLanguage>
+                        <a
+                          className="mx-2"
+                          href={client.github}
+                          target="_blank"
+                        >
+                          Github
+                        </a>
+                        <a
+                          className="mx-2"
+                          href={client.repositoryLink}
+                          target="_blank"
+                        >
+                          {client.repository}
+                        </a>
+                      </li>
+                    )
+                  );
+                })}
               </ul>
               <p>
                 Don't see your language? Help us decide by voting with a thumbs
