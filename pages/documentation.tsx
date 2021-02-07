@@ -73,16 +73,16 @@ const clients = [
     repositoryLink: "https://www.nuget.org/packages/Vexilla.Client",
   },
   {
-    language: "Kotlin (Java)",
-    github: "https://github.com/vexilla/client-kotlin",
-    repository: "Maven",
-    repositoryLink: "",
-  },
-  {
     language: "Go",
     github: "https://github.com/vexilla/client-go",
     repository: "pkg.go.dev",
     respositoryLink: "https://pkg.go.dev/github.com/vexilla/client-go",
+  },
+  {
+    language: "Kotlin (Java)",
+    github: "https://github.com/vexilla/client-kotlin",
+    repository: "Maven",
+    repositoryLink: "",
   },
 ];
 
