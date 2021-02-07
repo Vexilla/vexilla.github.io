@@ -46,7 +46,7 @@ const clients = [
     language: "JS/TS",
     github: "https://github.com/vexilla/client-js",
     repository: "npm",
-    repositoryLink: "https://npmjs.org/vexilla-client",
+    repositoryLink: "https://npmjs.org/@vexilla/client",
   },
   {
     language: "Elixir",
@@ -77,6 +77,12 @@ const clients = [
     github: "https://github.com/vexilla/client-kotlin",
     repository: "Maven",
     repositoryLink: "",
+  },
+  {
+    language: "Go",
+    github: "https://github.com/vexilla/client-go",
+    repository: "pkg.go.dev",
+    respositoryLink: "https://pkg.go.dev/github.com/vexilla/client-go",
   },
 ];
 
