@@ -76,13 +76,13 @@ const clients = [
     language: "Go",
     github: "https://github.com/vexilla/client-go",
     repository: "pkg.go.dev",
-    respositoryLink: "https://pkg.go.dev/github.com/vexilla/client-go",
+    repositoryLink: "https://pkg.go.dev/github.com/vexilla/client-go",
   },
   {
     language: "Rust",
     github: "https://github.com/vexilla/client-rust",
     repository: "crates.io",
-    respositoryLink: "https://crates.io/vexilla_client",
+    repositoryLink: "https://crates.io/vexilla_client",
   },
   {
     language: "Ruby",
