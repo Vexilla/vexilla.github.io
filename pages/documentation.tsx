@@ -79,6 +79,12 @@ const clients = [
     respositoryLink: "https://pkg.go.dev/github.com/vexilla/client-go",
   },
   {
+    language: "Rust",
+    github: "https://github.com/vexilla/client-rust",
+    repository: "crates.io",
+    respositoryLink: "https://crates.io/vexilla_client",
+  },
+  {
     language: "Kotlin (Java)",
     github: "https://github.com/vexilla/client-kotlin",
     repository: "Maven",
