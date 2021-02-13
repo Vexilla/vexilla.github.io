@@ -85,6 +85,12 @@ const clients = [
     respositoryLink: "https://crates.io/vexilla_client",
   },
   {
+    language: "Ruby",
+    github: "https://github.com/vexilla/client-ruby",
+    repository: "RubyGems",
+    repositoryLink: "https://rubygems.org/gems/vexilla_client",
+  },
+  {
     language: "Kotlin (Java)",
     github: "https://github.com/vexilla/client-kotlin",
     repository: "Maven",
