@@ -36,8 +36,8 @@ export default function HomePage() {
         </Nav>
       </Header>
       <Hero />
-      <HowItWorks />
       <WhatAreFeatureFlags />
+      <HowItWorks />
       <Features />
       <Documentation />
       <div>License</div>
