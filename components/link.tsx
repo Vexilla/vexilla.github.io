@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 export default ({ href, children }) => {
   const router = useRouter();
 
-  let className = children.props.className || "";
+  let className = children?.props?.className || "";
 
   console.log({ router });
 
