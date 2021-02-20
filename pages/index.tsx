@@ -18,12 +18,12 @@ export default function HomePage() {
       </Head>
       <Header>
         <Nav>
-          <Link href="/#how-it-works">
-            <InnerLink>How It Works</InnerLink>
-          </Link>
-
           <Link href="/#feature-flags">
             <InnerLink>Feature Flags</InnerLink>
+          </Link>
+
+          <Link href="/#how-it-works">
+            <InnerLink>How It Works</InnerLink>
           </Link>
 
           <Link href="/#features">
