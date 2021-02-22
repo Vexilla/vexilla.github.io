@@ -70,6 +70,12 @@ const clients = [
     repositoryLink: "https://luarocks.org/modules/cmgriffing/vexilla_client",
   },
   {
+    language: "Dart",
+    github: "https://github.com/vexilla/client-dart",
+    repository: "pub.dev",
+    repositoryLink: "https://pub.dev/packages/vexilla_client",
+  },
+  {
     language: "Kotlin (Java)",
     github: "https://github.com/vexilla/client-kotlin",
     repository: "Maven",
