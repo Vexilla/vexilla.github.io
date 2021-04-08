@@ -61,8 +61,7 @@ app.listen(port, () => {
 });
 
 async function fetchFlags() {
-  flags = await globalVexillaClient.fetchFlags;
-  ("features.json");
+  flags = await globalVexillaClient.fetchFlags("features.json");
 }
 ```
 
@@ -108,7 +107,7 @@ app.get("/hello", async (req, res) => {
     // update fetch timestamp
     lastFlagFetch = Date.now();
     // update global flags
-    flags = await client.fetchFlags("features.json");
+    flags = await localVexillaClient.fetchFlags("features.json");
   }
 
   localVexillaClient.setFlags(flags);
@@ -125,8 +124,7 @@ app.listen(port, () => {
 });
 
 async function fetchFlags() {
-  flags = await globalVexillaClient.fetchFlags;
-  ("features.json");
+  flags = await globalVexillaClient.fetchFlags("features.json");
 }
 ```
 
