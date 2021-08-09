@@ -1,4 +1,5 @@
 import Header from "components/header";
+import Footer from "components/footer";
 import Hero from "components/home/hero";
 import HowItWorks from "components/home/how-it-works";
 import WhatAreFeatureFlags from "components/home/what-are-feature-flags";
@@ -40,7 +41,7 @@ export default function HomePage() {
       <HowItWorks />
       <Features />
       <Documentation />
-      <div>License</div>
+      <Footer />
     </>
   );
 }
