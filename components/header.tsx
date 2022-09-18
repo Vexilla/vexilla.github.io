@@ -11,7 +11,7 @@ export default function Header(props) {
         <Link href="/">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <div className="rounded-full bg-blue-500 p-2 w-12 h-12">
-              <img className="max-h-full w-auto" src="/logo-white.svg" />
+              <img className="max-h-full w-auto mx-auto" src="/logo-white.svg" />
             </div>
             <span className="ml-3 text-xl">Vexilla</span>
           </a>
