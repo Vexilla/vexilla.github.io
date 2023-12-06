@@ -14,8 +14,8 @@ const PageWrapper = styled.div`
 const Sidebar = styled.div`
   ${tw`p-4 w-1/4 overflow-scroll sticky`}
 
-  top: 80px;
-  max-height: calc(100vh - 80px);
+  top: 180px;
+  max-height: calc(100vh - 180px);
 `;
 
 const SidebarNav = styled.nav`

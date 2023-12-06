@@ -7,11 +7,26 @@ import { Nav, InnerLink } from "components/common/header";
 export default function Header(props) {
   return (
     <header className="text-gray-600 body-font fixed top-0 left-0 right-0 bg-white z-10">
+      <div className="bg-red-100 border-red-500 p-4 text-3xl">
+        <div className="flex w-full justify-center container mx-auto max-w-screen-lg">
+          <h2 className="font-extrabold mr-2 text-4xl">WARNING:</h2>
+          <p>
+            This website has been archived. All new documentation and updates
+            will be focused on the new domain,{" "}
+            <a className="underline" href="https://vexilla.dev<">
+              https://vexilla.dev
+            </a>
+          </p>
+        </div>
+      </div>
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center max-w-screen-lg">
         <Link href="/">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <div className="rounded-full bg-blue-500 p-2 w-12 h-12">
-              <img className="max-h-full w-auto mx-auto" src="/logo-white.svg" />
+              <img
+                className="max-h-full w-auto mx-auto"
+                src="/logo-white.svg"
+              />
             </div>
             <span className="ml-3 text-xl">Vexilla</span>
           </a>

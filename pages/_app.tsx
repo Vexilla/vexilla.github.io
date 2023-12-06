@@ -21,7 +21,7 @@ import "styles/index.css";
 function VexillaDocsApp({ Component, pageProps }) {
   return (
     <MDXProvider components={components}>
-      <div className="relative pt-32 md:pt-20 bg-white max-w-screen-lg mx-auto">
+      <div className="relative pt-60 md:pt-48 bg-white max-w-screen-lg mx-auto">
         <GlobalStyles />
         <Component {...pageProps} />
       </div>
