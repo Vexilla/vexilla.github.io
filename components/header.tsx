@@ -7,9 +7,9 @@ import { Nav, InnerLink } from "components/common/header";
 export default function Header(props) {
   return (
     <header className="text-gray-600 body-font fixed top-0 left-0 right-0 bg-white z-10">
-      <div className="bg-red-100 border-red-500 p-4 text-3xl">
+      <div className="text-black bg-red-100 border-red-500 p-4 text-3xl">
         <div className="flex w-full justify-center container mx-auto max-w-screen-lg">
-          <h2 className="font-extrabold mr-2 text-4xl">WARNING:</h2>
+          <h2 className="font-extrabold mr-2">WARNING:</h2>
           <p>
             This website has been archived. All new documentation and updates
             will be focused on the new domain,{" "}
