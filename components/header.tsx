@@ -1,5 +1,3 @@
-// import Link from "next/link";
-
 import Link from "components/link";
 
 import { Nav, InnerLink } from "components/common/header";
@@ -13,7 +11,7 @@ export default function Header(props) {
           <p>
             This website has been archived. All new documentation and updates
             will be focused on the new domain,{" "}
-            <a className="underline" href="https://vexilla.dev<">
+            <a className="underline" href="https://vexilla.dev">
               https://vexilla.dev
             </a>
           </p>
